@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="clas_system" targetName="clas_system" />
+      <config projectName="clas_system" targetName="ext-yaml-cpp" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" GENERATION_OPTIONS="-G &quot;Visual Studio 16 2019&quot; -DWITH_GPU:BOOL=ON -DPADDLE_LIB:PATH=&quot;C:\Program Files\paddle_inference&quot; -DCUDA_LIB:PATH=&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\lib\x64&quot; -DCUDNN_LIB:PATH=&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDNN8.5\lib&quot; -DOPENCV_DIR:PATH=&quot;C:\Program Files\opencv&quot;" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="739ac895-fa97-477a-a333-ab8ff3aac048" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/fuse_gmock_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/fuse_gmock_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/ast.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/ast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/gmock_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/gmock_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/gmock_class_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/gmock_class_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/keywords.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/keywords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/tokenize.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/tokenize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/gmock_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/gmock_gen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/gmock-config.in" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/gmock-config.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/gmock_doctor.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/gmock_doctor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/upload_gmock.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/upload_gmock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/test/gmock_leak_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/test/gmock_leak_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/test/gmock_output_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/test/gmock_output_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/test/gmock_test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/test/gmock_test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/fuse_gtest_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/fuse_gtest_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/gen_gtest_pred_impl.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/gen_gtest_pred_impl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/gtest-config.in" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/gtest-config.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/pump.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/pump.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/release_docs.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/release_docs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/upload_gtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/upload_gtest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_break_on_failure_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_break_on_failure_unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_catch_exceptions_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_catch_exceptions_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_color_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_color_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_env_var_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_env_var_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_filter_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_filter_unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_help_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_help_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_list_tests_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_list_tests_unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_output_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_output_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_shuffle_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_shuffle_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_throw_on_failure_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_throw_on_failure_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_uninitialized_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_uninitialized_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_xml_outfiles_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_xml_outfiles_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_xml_output_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_xml_output_unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_xml_test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_xml_test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/xcode/Scripts/versiongenerate.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/xcode/Scripts/versiongenerate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/travis.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/travis.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/fuse_gmock_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/fuse_gmock_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/ast.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/ast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/gmock_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/gmock_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/gmock_class_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/gmock_class_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/keywords.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/keywords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/tokenize.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/tokenize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/cpp/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/gmock_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/generator/gmock_gen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/gmock-config.in" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/gmock-config.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/gmock_doctor.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/gmock_doctor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/upload_gmock.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/scripts/upload_gmock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/test/gmock_leak_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/test/gmock_leak_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/test/gmock_output_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/test/gmock_output_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/test/gmock_test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googlemock/test/gmock_test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/fuse_gtest_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/fuse_gtest_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/gen_gtest_pred_impl.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/gen_gtest_pred_impl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/gtest-config.in" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/gtest-config.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/pump.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/pump.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/release_docs.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/release_docs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/upload_gtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/scripts/upload_gtest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_break_on_failure_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_break_on_failure_unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_catch_exceptions_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_catch_exceptions_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_color_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_color_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_env_var_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_env_var_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_filter_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_filter_unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_help_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_help_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_list_tests_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_list_tests_unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_output_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_output_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_shuffle_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_shuffle_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_throw_on_failure_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_throw_on_failure_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_uninitialized_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_uninitialized_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_xml_outfiles_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_xml_outfiles_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_xml_output_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_xml_output_unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_xml_test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/test/gtest_xml_test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/xcode/Scripts/versiongenerate.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/googletest/xcode/Scripts/versiongenerate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/travis.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp/test/gtest-1.8.0/travis.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.1" />
+  </component>
+  <component name="ProjectId" id="2G4TKbfwV8nw02TYYnxP0uiciDj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.advertisement.text.has.clang-format&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ty/Desktop/MyDesktopDirectory/paddleCPPInferDEMO/cppClion&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ty\Desktop\MyDesktopDirectory\paddleCPPInferDEMO\cpp\cmake-build-release\Release" />
+      <recent name="C:\Users\ty\Desktop\MyDesktopDirectory\paddleCPPInferDEMO\cpp\cmake-build-release\inference" />
+      <recent name="C:\Users\ty\Desktop\MyDesktopDirectory\paddleCPPInferDEMO\cpp\cmake-build-release" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ty\Desktop\MyDesktopDirectory\paddleCPPInferDEMO\cppClion\include" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake 应用程序.clas_system">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clas_system" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-config &quot;C:\Users\ty\Desktop\MyDesktopDirectory\paddleCPPInferDEMO\inference_attr.yaml&quot;" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="clas_system" TARGET_NAME="clas_system" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="clas_system" RUN_TARGET_NAME="clas_system">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ext-yaml-cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="clas_system" TARGET_NAME="ext-yaml-cpp" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.clas_system" />
+      <item itemvalue="CMake 应用程序.ext-yaml-cpp" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="739ac895-fa97-477a-a333-ab8ff3aac048" name="变更" comment="" />
+      <created>1665646793328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665646793328</updated>
+      <workItem from="1665646794670" duration="3211000" />
+      <workItem from="1665653139106" duration="6572000" />
+      <workItem from="1665725039586" duration="11044000" />
+      <workItem from="1665988103206" duration="2273000" />
+      <workItem from="1666150861085" duration="3385000" />
+      <workItem from="1666246528686" duration="1504000" />
+      <workItem from="1666318004596" duration="3727000" />
+      <workItem from="1666680209111" duration="5112000" />
+      <workItem from="1666835203933" duration="655000" />
+      <workItem from="1667202967966" duration="618000" />
+      <workItem from="1667442071361" duration="824000" />
+      <workItem from="1668473310673" duration="1408000" />
+      <workItem from="1668585714581" duration="1912000" />
+      <workItem from="1668675067821" duration="687000" />
+      <workItem from="1669623317356" duration="1818000" />
+      <workItem from="1669709531386" duration="11447000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/cmake-build-debug/ext/yaml-cpp/src/ext-yaml-cpp" />
+      <path value="$PROJECT_DIR$/cmake-build-debug/third-party/extern_autolog-src" />
+      <path value="$PROJECT_DIR$/cmake-build-release/ext/yaml-cpp/src/ext-yaml-cpp" />
+      <path value="$PROJECT_DIR$/cmake-build-release/third-party/extern_autolog-src" />
+      <path value="$PROJECT_DIR$/out/ext/yaml-cpp/src/ext-yaml-cpp" />
+      <path value="$PROJECT_DIR$/out/third-party/extern_autolog-src" />
+    </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
