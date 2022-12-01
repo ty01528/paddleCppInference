@@ -9,9 +9,9 @@
 namespace Inference {
     class clsInference {
     public:
-        void Run(int argc, char **argv);
+        static void Run(PaddleClas::ClsConfig &config, const string& img_path);
 
-        void Init(int argc, char **argv);
+        static PaddleClas::ClsConfig Init(int argc, char **argv);
     };
 };
 

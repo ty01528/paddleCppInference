@@ -33,10 +33,8 @@ DEFINE_string(c,
               "", "Path of yaml file");
 
 namespace Inference{
-    void clsInference::Init(int argc, char **argv){
-
-    }
-    void clsInference::Run(int argc, char **argv){
+    ClsConfig clsInference::Init(int argc, char **argv){
+        //      解析参数
         google::ParseCommandLineFlags(&argc, &argv, true);
         std::string yaml_path = "";
         std::cout << "run correctly" << std::endl;
@@ -54,8 +52,15 @@ namespace Inference{
         std::cout << "starting read configfile" << std::endl;
         ClsConfig config(yaml_path);
         std::cout << "read config complete" << std::endl;
+//      config读取完毕
+        return config;
+    }
+    void clsInference::Run(ClsConfig &config,const string &img_path){
         config.PrintConfigInfo();
 
+        if (img_path.empty()) {
+
+        }
         std::string path(config.infer_imgs);
         std::cout << "starting decode" << std::endl;
         std::vector <std::string> img_files_list;
