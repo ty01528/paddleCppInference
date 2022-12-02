@@ -5,13 +5,20 @@
 #ifndef CLAS_SYSTEM_INFERENCE_H
 #define CLAS_SYSTEM_INFERENCE_H
 
+#include "include/cls.h"
+#include "include/cls_config.h"
+
+using namespace PaddleClas;
 
 namespace Inference {
     class clsInference {
     public:
-        static void Run(PaddleClas::ClsConfig &config, const string& img_path);
+        void Run(Classifier &classifier, const string& img_path);
 
-        static PaddleClas::ClsConfig Init(int argc, char **argv);
+        Classifier Init(const string& yaml_path);
+    private:
+        int config_id_map_size = 0;
+        int config_topk = 0;
     };
 };
 
