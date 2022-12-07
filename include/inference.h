@@ -13,9 +13,9 @@ using namespace PaddleClas;
 namespace Inference {
     class clsInference {
     public:
-        void Run(Classifier &classifier, const string& img_path);
+        void clsInferenceRun(Classifier &classifier, const cv::Mat& img) const;
 
-        Classifier Init(const string& yaml_path);
+        Classifier clsInferenceInit(const string& yaml_path);
     private:
         int config_id_map_size = 0;
         int config_topk = 0;
