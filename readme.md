@@ -1,67 +1,21 @@
 # 服务器端C++预测
 
-本教程将介绍在服务器端部署PaddleClas模型的详细步骤。
+介绍下C++版本的PaddleInference编译
 
 
 ## 1. 准备环境
 
 ### 运行准备
-- Linux环境，推荐使用docker。
-- Windows环境，目前支持基于`Visual Studio 2019 Community`进行编译；此外，如果您希望通过生成`sln解决方案`的方式进行编译，可以参考该文档：[https://zhuanlan.zhihu.com/p/145446681](https://zhuanlan.zhihu.com/p/145446681)
+- #### Windows环境，使用`Visual Studio 2019`相关编译器编译。
 
-* 该文档主要介绍基于Linux环境下的PaddleClas C++预测流程，如果需要在Windows环境下使用预测库进行C++预测，具体编译方法请参考[Windows下编译教程](./docs/windows_vs2019_build.md)。
+- #### 使用cuda版本CUDA=11.6, cuDNN=8.5
+- #### 需要正常访问Github用来下载相关依赖
 
-### 1.1 编译opencv库
+### 1.1 添加opencv库
 
-* 首先需要从opencv官网上下载在Linux环境下源码编译的包，以3.4.7版本为例，下载及解压缩命令如下：
+* 首先需要从opencv官网上下载好open-cv相关lib库，也可以自行编译
 
-```
-wget https://github.com/opencv/opencv/archive/3.4.7.tar.gz
-tar -xvf 3.4.7.tar.gz
-```
-
-最终可以在当前目录下看到`opencv-3.4.7/`的文件夹。
-
-* 编译opencv，首先设置opencv源码路径(`root_path`)以及安装路径(`install_path`)，`root_path`为下载的opencv源码路径，`install_path`为opencv的安装路径。在本例中，源码路径即为当前目录下的`opencv-3.4.7/`。
-
-```shell
-cd ./opencv-3.4.7
-export root_path=$PWD
-export install_path=${root_path}/opencv3
-```
-
-* 然后在opencv源码路径下，按照下面的方式进行编译。
-
-```shell
-rm -rf build
-mkdir build
-cd build
-
-cmake .. \
-    -DCMAKE_INSTALL_PREFIX=${install_path} \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DBUILD_SHARED_LIBS=OFF \
-    -DWITH_IPP=OFF \
-    -DBUILD_IPP_IW=OFF \
-    -DWITH_LAPACK=OFF \
-    -DWITH_EIGEN=OFF \
-    -DCMAKE_INSTALL_LIBDIR=lib64 \
-    -DWITH_ZLIB=ON \
-    -DBUILD_ZLIB=ON \
-    -DWITH_JPEG=ON \
-    -DBUILD_JPEG=ON \
-    -DWITH_PNG=ON \
-    -DBUILD_PNG=ON \
-    -DWITH_TIFF=ON \
-    -DBUILD_TIFF=ON
-
-make -j
-make install
-```
-
-* `make install`完成之后，会在该文件夹下生成opencv头文件和库文件，用于后面的PaddleClas代码编译。
-
-以opencv3.4.7版本为例，最终在安装路径下的文件结构如下所示。**注意**：不同的opencv版本，下述的文件结构可能不同。
+找到open-cv的库文件，找到以下目录，记录下它的路径。
 
 ```
 opencv3/
@@ -83,13 +37,9 @@ opencv3/
 git clone https://github.com/PaddlePaddle/Paddle.git
 ```
 
-* 进入Paddle目录后，使用如下方法编译。
+* 进入Paddle目录后，使用如下参数编译。
 
 ```shell
-rm -rf build
-mkdir build
-cd build
-
 cmake  .. \
     -DWITH_CONTRIB=OFF \
     -DWITH_MKL=ON \
@@ -99,8 +49,6 @@ cmake  .. \
     -DWITH_INFERENCE_API_TEST=OFF \
     -DON_INFER=ON \
     -DWITH_PYTHON=ON
-make -j
-make inference_lib_dist
 ```
 
 更多编译参数选项可以参考Paddle C++预测库官网：[https://www.paddlepaddle.org.cn/documentation/docs/zh/develop/guides/05_inference_deployment/inference/build_and_install_lib_cn.html#id16](https://www.paddlepaddle.org.cn/documentation/docs/zh/develop/guides/05_inference_deployment/inference/build_and_install_lib_cn.html#id16)。
@@ -122,19 +70,8 @@ build/paddle_inference_install_dir/
 
 * [Paddle预测库官网](https://www.paddlepaddle.org.cn/documentation/docs/zh/develop/guides/05_inference_deployment/inference/build_and_install_lib_cn.html#id1)上提供了不同cuda版本的Linux预测库，可以在官网查看并选择合适的预测库版本，注意必须选择`develop`版本。
 
-  以`2.1.1-gpu-cuda10.2-cudnn8.1-mkl-gcc8.2`的`develop`版本为例，使用下述命令下载并解压：
 
-
-```shell
-wget https://paddle-inference-lib.bj.bcebos.com/2.1.1-gpu-cuda10.2-cudnn8.1-mkl-gcc8.2/paddle_inference.tgz
-tar -xvf paddle_inference.tgz
-```
-
-
-最终会在当前的文件夹中生成`paddle_inference/`的子文件夹。
-
-
-## 2 开始运行
+## 2 使用IDE配置运行环境
 
 ### 2.1 将模型导出为inference model
 
@@ -147,17 +84,11 @@ inference/
 ```
 **注意**：上述文件中，`inference.pdmodel`文件存储了模型结构信息，`inference.pdiparams`文件存储了模型参数信息。模型目录可以随意设置，但是模型名字不能修改。
 
-### 2.2 编译PaddleClas C++预测demo
+### 2.2 配置编译器的CMakeList.txt
 
-* 编译命令如下，其中Paddle C++预测库、opencv等其他依赖库的地址需要换成自己机器上的实际地址。
+* CMakeList.txt是绝大多数C++项目的编译描述文件
 
-
-```shell
-sh tools/build.sh
-```
-
-具体地，`tools/build.sh`中内容如下。
-
+其编译器的原始编译参数如下所示：
 ```shell
 OPENCV_DIR=your_opencv_dir
 LIB_DIR=your_paddle_inference_dir
@@ -187,7 +118,7 @@ cd ..
 
 上述命令中，
 
-* `OPENCV_DIR`为opencv编译安装的地址（本例中为`opencv-3.4.7/opencv3`文件夹的路径）；
+* `OPENCV_DIR`为opencv编译安装的地址（本例中为`opencv`文件夹的路径）；
 
 * `LIB_DIR`为下载的Paddle预测库（`paddle_inference`文件夹），或编译生成的Paddle预测库（`build/paddle_inference_install_dir`文件夹）的路径；
 
@@ -197,33 +128,47 @@ cd ..
 
 * `TENSORRT_DIR`是tensorrt库文件地址，在dokcer中为`/usr/local/TensorRT6-cuda10.0-cudnn7/`，TensorRT需要结合GPU使用。
 
-在执行上述命令，编译完成之后，会在当前路径下生成`build`文件夹，其中生成一个名为`clas_system`的可执行文件。
+在IDE中，你需要将这些位置以编译参数缓存进工程中，以下为我个人使用的参数，相关依赖位置 **因人而异**：
 
-
-### 2.3 运行demo
-#### 2.3.1 设置配置文件
-
-```shell
-cp ../configs/inference_cls.yaml tools/
+```
+-G "Visual Studio 16 2019" 
+-DWITH_GPU:BOOL=ON 
+-DPADDLE_LIB:PATH="C:\Program Files\paddle_inference" 
+-DCUDA_LIB:PATH="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\lib\x64" 
+-DCUDNN_LIB:PATH="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDNN8.5\lib" 
+-DOPENCV_DIR:PATH="C:\Program Files\opencv"
 ```
 
-根据[python预测推理](../../docs/zh_CN/inference_deployment/python_deploy.md)的`图像分类推理`部分修改好`tools`目录下`inference_cls.yaml`文件。`yaml`文件的参数说明详见[python预测推理](../../docs/zh_CN/inference_deployment/python_deploy.md)。
 
-请根据实际存放文件，修改好`Global.infer_imgs`、`Global.inference_model_dir`、`PostProcess.Topk.topk`、`PostProcess.Topk.class_id_map_file`等参数。
+## 3 项目结构
+#### 3.1 项目结构介绍
 
-#### 2.3.2 执行
-
-```shell
-./build/clas_system -c tools/inference_cls.yaml
-# or
-./build/clas_system -config tools/inference_cls.yaml
+```
+  — 程序入口：main.cpp
+  — 推理预测：inference.cpp
+  — 设置参数：cls_config.cpp
+  — 推理底层：cls.cpp
 ```
 
-最终屏幕上会输出结果，如下图所示。
+如不修改项目底层，你只需要关注Inference.cpp下的
+```c++
+clsInference::clsInferenceInit(const string& yaml_path)
+clsInference::clsInferenceRun(Classifier& classifier, const cv::Mat& img)
+```
+其中Init 函数读取模型的描述文件，返回一个config类型
 
-<div align="center">
-    <img src="./docs/imgs/cpp_infer_result.png" width="600">
-</div>
+再调用此对象的Run 函数，参数为config与cv::MAT 执行推理任务
 
+#### 3.2 执行示例
 
-其中`class id`表示置信度最高的类别对应的id，score表示图片属于该类别的概率。
+```c++
+#include <include/inference.h>
+using namespace cv;
+using namespace Inference;
+int main() {
+    clsInference inferenceInit;
+    Mat img = cv::imread(R"(C:\Users\ty\Desktop\MyDesktopDirectory\paddleCPPInferDEMO\inference\pic\20210611_101518_0490.jpg)");
+    Classifier clsConfig = inferenceInit.clsInferenceInit(R"(C:\Users\ty\Desktop\MyDesktopDirectory\paddleCPPInferDEMO\inference_attr.yaml)");
+    inferenceInit.clsInferenceRun(clsConfig, img);
+}
+```

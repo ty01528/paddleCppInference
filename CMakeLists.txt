@@ -224,3 +224,7 @@ if (WIN32 AND WITH_MKL)
         COMMAND ${CMAKE_COMMAND} -E copy_if_different ${PADDLE_LIB}/third_party/install/mkldnn/lib/mkldnn.dll ./release/mkldnn.dll
     )
 endif()
+
+#add_library(inference SHARED ${PROJECT_SOURCE_DIR}/src/inference.cpp)
+#install(TARGETS inference LIBRARY DESTINATION cmake-build-release)
+
