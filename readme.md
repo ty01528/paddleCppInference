@@ -29,7 +29,7 @@ opencv3/
 
 * 有2种方式获取Paddle预测库，下面进行详细介绍。
 
-#### 1.2.1 预测库源码编译
+#### 1.2.1 ~~预测库源码编译(不推荐)~~
 * 如果希望获取最新预测库特性，可以从Paddle github上克隆最新代码，源码编译预测库。
 * 可以参考[Paddle预测库官网](https://www.paddlepaddle.org.cn/documentation/docs/zh/develop/guides/05_inference_deployment/inference/build_and_install_lib_cn.html#id16)的说明，从github上获取Paddle代码，然后进行编译，生成最新的预测库。使用git获取代码方法如下。
 
