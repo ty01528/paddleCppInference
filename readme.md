@@ -1,6 +1,6 @@
 # 服务器端C++预测
 
-介绍下C++版本的PaddleInference编译
+C++版本的PaddleInference编译
 
 
 ## 1. 准备环境
